@@ -1,0 +1,28 @@
+html {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+header {
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content: flex-end;
+}
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.topnav li {
+    float: left;
+  }
+  
+.topnav li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
