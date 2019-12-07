@@ -46,26 +46,43 @@ header {
     text-decoration: none;
   }
 
-.content_area {
-
-}
-
 .logo_area {
-    
+    padding: 30px;
 }
 
 .logo_area img {
    
 }
 
+.searchbox {
+    padding-bottom: 20px;
+}
+
+.buttons {
+    padding-bottom: 20px;
+}
+
+.language {
+    margin-bottom: 100px;
+}
 footer {
-   
+    background: #f2f2f2;
+    line-height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .ftop {
-   
+   border-bottom: 1px solid #e4e4e4;
+   font-size: 15px;
+   color: rgba(0,0,0,.54);
 }
 
 .fbottom {
-    
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.push {
+    margin-left: auto;
 }
