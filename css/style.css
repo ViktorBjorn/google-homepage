@@ -2,12 +2,31 @@ html {
     font-family: arial,sans-serif;
     font-size: 13px;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 header {
+    
+}
+
+.topnav {
     display: flex;
     flex-flow: row wrap;
-    /* This aligns items to the end line on main-axis */
     justify-content: flex-end;
 }
+
 .topnav ul {
     list-style-type: none;
     margin: 0;
@@ -26,3 +45,27 @@ header {
     padding: 10px 10px;
     text-decoration: none;
   }
+
+.content_area {
+
+}
+
+.logo_area {
+    
+}
+
+.logo_area img {
+   
+}
+
+footer {
+   
+}
+
+.ftop {
+   
+}
+
+.fbottom {
+    
+}
